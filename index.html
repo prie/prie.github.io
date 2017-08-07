@@ -12,7 +12,7 @@
       @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
     </style>
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Priyanto - Drupal Web Developer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,47 +35,104 @@
   </head>
 
   <body>
+        
+    <div class="tab-content">
 
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <!--<div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
+      <div role="tabpanel" class="tab-pane fade active in" id="home">
+        <div class="blurred-bg"></div>
+        <div class="site-wrapper">
+          <div class="site-wrapper-inner">
+            <div class="cover-container">
+              <h1 class="cover-heading"><img src="images/drupal8.png" /> Web Developer</h1>
             </div>
-          </div>-->
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <!--
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
-            -->
           </div>
-
-          <!--<div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>-->
-
         </div>
+      </div>
 
+      <div role="tabpanel" class="tab-pane fade" id="profile">
+        <div class="site-wrapper">
+          <div class="site-wrapper-inner">
+            <div class="cover-container">
+              <h1 class="cover-heading">Profile</h1>
+              <img src="images/iam.jpg" class="my-photo" />
+              <p class="lead">
+                Hi, I'm Priyanto, an experienced Drupal web developer based in Yogyakarta, Indonesia.
+              </p>
+              <p class="lead">
+                Started using Drupal in 2013, I'm Skilled in slicing PSD to Drupal with a good attention to details and 
+                creating a custom modules to extend the function.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="skills">
+        <div class="site-wrapper">
+          <div class="site-wrapper-inner">
+            <div class="cover-container">
+              <h1 class="cover-heading">Skills</h1>
+              <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="portfolio">
+        <div class="site-wrapper">
+          <div class="site-wrapper-inner">
+            <div class="container">
+              <h1 class="cover-heading">Portfolio</h1>
+              <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="contact">
+        <div class="site-wrapper">
+          <div class="site-wrapper-inner">
+            <div class="container">
+              <h1 class="cover-heading">Contact</h1>
+              <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
+
+    
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation">
+          <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+            <i class="glyphicon glyphicon-info-sign"></i><span class="mn-ltr">PROFILE</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab">
+            <i class="glyphicon glyphicon-briefcase"></i><span class="mn-ltr">PORTFOLIO</span>
+          </a>
+        </li>
+        <li role="presentation" class="active">
+          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+            <i class="glyphicon glyphicon-home"></i><span class="mn-ltr">HOME</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">
+            <i class="glyphicon glyphicon-cog"></i><span class="mn-ltr">SKILLS</span>
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">
+            <i class="glyphicon glyphicon-envelope"></i><span class="mn-ltr">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    
+      
+      
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
