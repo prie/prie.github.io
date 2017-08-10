@@ -4,7 +4,14 @@
 
 h1 {
   font-size: 47px;
-  margin-bottom: 40px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  background-color: #FFF;
+  text-align: center;
+  color: #ED7568;
 }
 
 /* Links */
@@ -51,8 +58,8 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 97%; /* For at least Firefox */
-  min-height: 97%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
   /*
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
@@ -149,13 +156,74 @@ body {
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 20px;
+  position: inherit;
+  border: none;
+  color: inherit;
 }
 img.my-photo {
-  width: 175px;
-  border: 1px solid #D80A0A;
+  width: 125px;
+  border: 1px solid #2170C9;
   border-radius: 50%;
   padding: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+.lead {
+  font-size: 18px;
+  margin-bottom: 13px;
+  line-height: 1.2;
+}
+i.fa {
+  margin: 0 7px;
+  font-size: 23px;
+}
+
+a.site,
+a.github,
+a.drupal,
+a.email,
+a.telegram {
+  font-size: 20px;
+  width: 100%;
+  margin: 2px 0;
+}
+a.email {
+  padding: 10px 0;
+}
+#profile span {
+  display: none;
+}
+
+#skills ul {
+  text-align: left;
+  padding: 0;
+}
+#skills ul li {
+  background: transparent url(../images/dotted.gif) repeat-x;
+  background-position: bottom 6px center;
+  clear: both;
+  list-style: none;
+}
+#skills ul li.exp {
+  color: #36AFE3;
+}
+#skills ul li span {
+  background-color: #FFF;
+  padding: 0 3px;
+}
+#skills ul li span.lvl {
+  float: right;
+}
+
+img.gmail-icon,
+img.tel-icon {
+  width: 50px;
+  background-color: #FFF;
+  padding: 1px;
+  border-radius: 5px;
+}
+img.tel-icon {
+  border-radius: 50%;
+  width: 45px;
 }
 
 @media (min-width: 768px) {
@@ -170,6 +238,17 @@ img.my-photo {
   }
   .lead {
     font-size: 25px;
+  }
+  a.email {
+    float: right;
+    width: 220px;
+  }
+  a.telegram {
+    float: left;
+    width: 220px;
+  }
+  #profile span {
+    display: inherit;
   }
 }
 
