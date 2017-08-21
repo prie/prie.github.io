@@ -271,6 +271,9 @@ img.tel-icon {
 .table>thead>tr>th {
   padding: 0 5px;
 }
+.table>tbody>tr>td:first-child {
+  width: 22%;
+}
 .table ul {
   margin-bottom: 5px;
   padding-left: 21px;
