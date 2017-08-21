@@ -256,8 +256,12 @@ img.tel-icon {
 .caption-container .desc {
   font-size: 14px;
 }
+.table-responsive {
+  border: 0;
+}
 .table {
   text-align: left;
+  border-bottom: 1px solid #DDD;
 }
 .table>tbody>tr>td,
 .table>tbody>tr>th,
