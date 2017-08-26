@@ -180,9 +180,9 @@ i.fa {
   font-size: 23px;
 }
 
-a.site,
-a.github,
-a.drupal,
+#profile a {
+  font-size: 20px;
+}
 a.email,
 a.telegram {
   font-size: 20px;
