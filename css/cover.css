@@ -188,7 +188,7 @@ i.fa {
   font-size: 23px;
 }
 
-#profile a {
+#resume a {
   font-size: 20px;
 }
 a.email,
@@ -197,7 +197,7 @@ a.telegram {
   width: 100%;
   margin: 2px 0;
 }
-#profile span {
+#resume span {
   display: none;
 }
 
@@ -331,7 +331,7 @@ img.tel-icon {
     float: left;
     width: 220px;
   }
-  #profile span {
+  #resume span {
     display: inherit;
   }
 }
