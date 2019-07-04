@@ -163,6 +163,20 @@ body {
   border: none;
   color: inherit;
 }
+#home h1.cover-heading .availability {
+  font-size: 23px;
+  text-align: right;
+  color: #36AFE3;
+}
+/*
+#home h1.cover-heading .greeting {
+  margin-top: -26px;
+}
+*/
+#home h1.cover-heading .my-name {
+  margin-top: 50px;
+  font-size: 47px;
+}
 #home h1 > a > img {
   width: 80%;
 }
@@ -308,7 +322,7 @@ img.tel-icon {
   h1 {
     font-size: 70px;
   }
-  #home h1.cover-heading {
+  #home h1.cover-heading .greeting {
     font-size: 90px;
   }
   .lead {
