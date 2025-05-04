@@ -174,8 +174,36 @@ body {
 }
 */
 #home h1.cover-heading .my-name {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 47px;
+}
+#home h1.cover-heading .upwork-top-rated {
+  margin-top: 10px;
+  font-size: 32px;
+}
+#home h1.cover-heading .upwork-top-rated a {
+  color: inherit;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1px 7px;
+  box-shadow: 0 1px 5px;
+}
+#home h1.cover-heading .upwork-top-rated a:hover {
+  text-decoration: none;
+  box-shadow: 2px 2px 5px;
+}
+#home h1.cover-heading .upwork-top-rated .upwork {
+  display: inline-flex;
+  color: #17A700;
+}
+#home h1.cover-heading .upwork-top-rated .top-rated-badge,
+#home h1.cover-heading .upwork-top-rated .top-rated {
+  display: inline-flex;
+}
+#home h1.cover-heading .upwork-top-rated .top-rated-icon {
+  display: inline-flex;
+  width: 36px;
+  margin: 0 7px;
 }
 #home h1 > a > img {
   width: 80%;
@@ -205,12 +233,15 @@ i.fa {
 #resume a {
   font-size: 20px;
 }
+
+a.upwork,
 a.email,
 a.telegram {
   font-size: 20px;
   width: 100%;
-  margin: 2px 0;
+  margin: 8px 0;
 }
+
 #resume span {
   display: none;
 }
@@ -337,13 +368,17 @@ img.tel-icon {
   .table>thead>tr>th {
     font-size: 18px;
   }
+
+  a.upwork {
+    max-width: 470px;
+  }
   a.email {
     float: right;
-    width: 220px;
+    max-width: 220px;
   }
   a.telegram {
     float: left;
-    width: 220px;
+    max-width: 220px;
   }
   #resume span {
     display: inherit;
