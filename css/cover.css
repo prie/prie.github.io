@@ -174,12 +174,13 @@ body {
 }
 */
 #home h1.cover-heading .my-name {
-  margin-top: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   font-size: 47px;
 }
 #home h1.cover-heading .upwork-top-rated {
   margin-top: 10px;
-  font-size: 32px;
+  font-size: 25px;
 }
 #home h1.cover-heading .upwork-top-rated a {
   color: inherit;
@@ -202,8 +203,16 @@ body {
 }
 #home h1.cover-heading .upwork-top-rated .top-rated-icon {
   display: inline-flex;
-  width: 36px;
+  width: 28px;
   margin: 0 7px;
+}
+@media (min-width: 768px) {
+  #home h1.cover-heading .upwork-top-rated {
+    font-size: 32px;
+  }
+  #home h1.cover-heading .upwork-top-rated .top-rated-icon {
+    width: 36px;
+  }
 }
 #home h1 > a > img {
   width: 80%;
@@ -231,7 +240,8 @@ i.fa {
 }
 
 #resume a {
-  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 
 a.upwork,
